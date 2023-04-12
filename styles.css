@@ -6,10 +6,6 @@
 
 /* Header Styling */
 
-#title {
-
-}
-
 h1.title {
     line-height: 190px;
     font-family: 'bebas neue';
@@ -388,9 +384,7 @@ main h1 {
     top: 0px;
 }
 
-.colorcontent,
- .fontscontent {
-    border: 2px outset black;
+.colorcontent {
     height: 700px;
     width: 1000px;
     max-width: 1000px;
@@ -399,8 +393,17 @@ main h1 {
     margin: 10px auto 100px auto;
 }
 
+.fontscontent {
+    margin: auto;
+    height: 700px;
+    width: 1500px;
+    max-width: 1300px;
+    min-height: 500px;
+    min-width: 500px;
+    margin: 10px auto 100px auto;
+}
+
 .elementstylescontent {
-    border: 2px outset black;
     height: 700px;
     width: 1000px;
     max-width: 1000px;
@@ -418,6 +421,100 @@ main h1 {
 
 /* Fonts Section */
 
+div.fontscontent div {
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+    margin: 0px 0px -50px 0px;
+    top: auto;
+    height: 750px;
+    width: 1000px;
+}
+
+div.fontscontent div.BebasNeues {
+    font-family: 'Bebas Neue';
+    position: relative;
+    top: 0px;
+    height: 200px;
+    width: 550px;
+    float: left;
+    text-align: left;
+}
+
+div.fontscontent div.Anton {
+    font-family: 'Anton';
+    position: relative;
+    top: 0px;
+    height: 200px;
+    width: 600px;
+    float: right;
+    text-align: right;
+}
+
+div.fontscontent div.Caveat {
+    font-family: 'Caveat';
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 550px;
+    float: left;
+    text-align: left;
+}
+
+div.fontscontent div.RobotoCondensed {
+    font-family: 'Roboto Condensed';
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 600px;
+    float: right;
+    text-align: right;
+
+}
+
+div.fontscontent div.Pathway {
+    font-family: 'Pathway Gothic Script';
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 600px;
+    float: right;
+    text-align: right;
+    border-bottom: none;
+}
+
+div.fontscontent div.Script {
+    font-family: 'Dancing Script';
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 600px;
+    float: left;
+    text-align: left;
+    border-bottom: none;
+}
+
+div.fontscontent p.one {
+    font-size: 15px;
+}
+
+div.fontscontent p.two {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+div.fontscontent p.three {
+    font-size: 45px;
+    font-style: italic;
+}
+
+.divider {
+    margin: 0 auto;
+    max-width: 600px;
+    transform: rotate(0.25turn);
+    position: absolute;
+    right: 300px;
+    bottom: -1940px;
+}
 
 /* Element Styles */
 
