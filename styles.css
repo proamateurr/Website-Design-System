@@ -91,109 +91,108 @@ button.colors:active {
 
 /* Fonts Button Styling */
 
-button.fonts {
-    padding:  0;
-    position: relative;
-}
+    button.fonts {
+        padding:  0;
+        position: relative;
+    }
 
-button.fonts div.fonts p{
-    font-size:30px;
-    font-weight:900;
-    color:#cccccc;
-    position:absolute;
-    z-index:-1;
-}
+    button.fonts div.fonts p{
+        font-size:30px;
+        font-weight:900;
+        color:#cccccc;
+        position:absolute;
+        z-index:-1;
+    }
 
-button.fonts div.fonts p.one {
-    font-size: 40.4px;
-    position: absolute;
-    top: 0px;
-}
+    button.fonts div.fonts p.one {
+        font-size: 40.4px;
+        position: absolute;
+        top: 0px;
+    }
 
-button.fonts div.fonts p.two {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: -5px;
-    word-spacing: -15px;
-    font-size: 40.1px;
-    position: absolute;
-    top: 50px;
-}
+    button.fonts div.fonts p.two {
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: -5px;
+        word-spacing: -15px;
+        font-size: 40.1px;
+        position: absolute;
+        top: 50px;
+    }
 
-button.fonts div.fonts p.three {
-    font-family: 'Sedgwick Ave Display';
-    letter-spacing: -2px;
-    font-size: 44px;
-    position: absolute;
-    top: 100px;
-}
+    button.fonts div.fonts p.three {
+        font-family: 'Sedgwick Ave Display';
+        letter-spacing: -2px;
+        font-size: 44px;
+        position: absolute;
+        top: 100px;
+    }
 
-button.fonts div.fonts p.four {
-    font-family: 'Inspiration';
-    word-spacing: -5px;
-    font-size: 42.2px;
-    position: absolute;
-    top: 154px;
-}
+    button.fonts div.fonts p.four {
+        font-family: 'Inspiration';
+        word-spacing: -5px;
+        font-size: 42.2px;
+        position: absolute;
+        top: 154px;
+    }
 
-button.fonts div.fonts p.five {
-    font-family: anton;
-    font-size: 41.9px;
-    position: absolute;
-    top: 204px;
-}
+    button.fonts div.fonts p.five {
+        font-family: anton;
+        font-size: 41.9px;
+        position: absolute;
+        top: 204px;
+    }
 
-button.fonts div.fonts p.six {
-    font-family: caveat;
-    font-size: 38.8px;
-    position: absolute;
-    top: 260px;
-}
+    button.fonts div.fonts p.six {
+        font-family: caveat;
+        font-size: 38.8px;
+        position: absolute;
+        top: 260px;
+    }
 
-button.fonts div.fonts p.seven {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: -2px;
-    font-size: 40.3px;
-    position: absolute;
-    top: 305px;
-}
+    button.fonts div.fonts p.seven {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: -2px;
+        font-size: 40.3px;
+        position: absolute;
+        top: 305px;
+    }
 
-button.fonts div.fonts p.eight {
-    font-family: Dancing Script;
-    font-size: 39px;
-    position: absolute;
-    top: 356px;
-}
+    button.fonts div.fonts p.eight {
+        font-family: Dancing Script;
+        font-size: 39px;
+        position: absolute;
+        top: 356px;
+    }
 
-button.fonts div.fonts p.nine {
-    font-family: Cursive;
-    word-spacing: -10px;
-    letter-spacing: -2px;
-    font-size: 40px;
-    position: absolute;
-    top: 400px;
-}
+    button.fonts div.fonts p.nine {
+        font-family: Cursive;
+        word-spacing: -10px;
+        letter-spacing: -2px;
+        font-size: 40px;
+        position: absolute;
+        top: 400px;
+    }
 
-button.fonts div.fonts p.ten {
-    font-family: Allura;
-    font-size: 41.3px;
-    position: absolute;
-    top: 455px;
-}
+    button.fonts div.fonts p.ten {
+        font-family: Allura;
+        font-size: 41.3px;
+        position: absolute;
+        top: 455px;
+    }
 
-button.fonts div.fonts {
-    font-family: 'Bebas Neue';
-    display: inline;
-    font-size: 100px;
-}
+    button.fonts div.fonts {
+        font-family: 'Bebas Neue';
+        display: inline;
+        font-size: 100px;
+    }
 
+    button.fonts:active {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        box-shadow: none;
 
-button.fonts:active {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    box-shadow: none;
-
-}
+    }
 
 /* Element Styles Button Styling */
 
@@ -213,7 +212,7 @@ button.elementstyles {
     padding: 0;
 }
 
-button.elementstyles div.text p{
+button.elementstyles div.text p,{
     position: absolute;
     font-size: 50px;
     font-family: 'Bebas Neue';
@@ -403,15 +402,6 @@ main h1 {
     margin: 10px auto 100px auto;
 }
 
-.elementstylescontent {
-    height: 700px;
-    width: 1000px;
-    max-width: 1000px;
-    min-height: 500px;
-    min-width: 500px;
-    margin: 10px auto 68px auto;
-}
-
 /* Colors Section */
 
 .colorcontent #colorpicker{
@@ -508,15 +498,187 @@ div.fontscontent p.three {
 }
 
 .divider {
-    margin: 0 auto;
+    max-height: 10px;
     max-width: 600px;
     transform: rotate(0.25turn);
     position: absolute;
-    right: 300px;
-    bottom: -1940px;
+    right: 647px;
+    bottom: -1585px;
 }
 
 /* Element Styles */
+
+#elementstyles {
+    line-height: 170px;
+}
+
+section.el {
+ height: 700px;
+ width: 1200px;
+ margin: 0px auto 150px auto;
+}
+
+div.elementstylescontent {
+    display: inline-grid;
+    background-color: #201e2f;
+    position: relative;
+    margin: 10px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    width: 250px;
+    height: 250px;
+}
+
+div.elementstylescontent div.text p{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+}
+
+div.elementstylescontent div.text p.one{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 16.5px;
+    left: 15px;
+    color: #b4d353;
+}
+
+div.elementstylescontent div.text p.one span.element{
+    position: absolute;
+    left: 37.5px;
+}
+
+div.elementstylescontent div.text p.one span.brackets{
+    position: absolute;
+    left: 170px;
+    color: rgb(255, 255, 255);
+    background-color: #217572;
+}
+
+div.elementstylescontent div.text p.one span.line{
+    color: rgb(255, 255, 255);
+}
+
+div.elementstylescontent div.text p.two{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 65px;
+    left: 90px;
+    color: #69c4c1;
+}
+
+div.elementstylescontent div.text p.two span{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 0px;
+    left: 60px;
+    color: #c477bc;
+}
+
+div.elementstylescontent div.text p.two span.linetwo{
+    position: absolute;
+    left: -75px;
+    color: rgb(255, 255, 255);
+}
+
+div.elementstylescontent div.text p.three{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 92.5px;
+    left: 90px;
+    color: #69c4c1;
+}
+
+div.elementstylescontent div.text p.three span{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 0px;
+    left: 60px;
+    color: #c477bc;
+}
+
+div.elementstylescontent div.text p.three span.linethree{
+    position: absolute;
+    left: -75px;
+    color: rgb(255, 255, 255);
+}
+
+div.elementstylescontent div.text p.four{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 130px;
+    left: 90px;
+    color: #69c4c1;
+}
+
+div.elementstylescontent div.text p.four span{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 0px;
+    left: 60px;
+    color: #c477bc;
+}
+
+div.elementstylescontent div.text p.four span.linefour{
+    position: absolute;
+    left: -75px;
+    color: rgb(255, 255, 255);
+}
+
+div.elementstylescontent div.text p.five{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 170px;
+    left: 90px;
+    color: #69c4c1;
+}
+
+div.elementstylescontent div.text p.five span{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 0px;
+    left: 60px;
+    color: #c477bc;
+}
+
+div.elementstylescontent div.text p.five span.linefive{
+    position: absolute;
+    left: -75px;
+    color: rgb(255, 255, 255);
+}
+
+div.elementstylescontent div.text p.six{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 208.5px;
+    left: 90px;
+    color: #69c4c1;
+}
+
+div.elementstylescontent div.text p.six span.closebracket{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    top: 0px;
+    left: -32.5px;
+    color: #ffffff;
+    background-color: #217572;
+}
+
+div.elementstylescontent div.text p.six span.linesix{
+    position: absolute;
+    left: -75px;
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -536,6 +698,24 @@ div.fontscontent p.three {
 }
 
 .backtotop:hover {
+    color: #363636;
+    cursor: pointer;
+}
+
+.thanks {
+    border: none;
+    background-color: transparent;
+    font-family: 'Bebas Neue';
+    line-height: 50px;
+    font-size: 50px;
+    float: left;
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.thanks:hover {
     color: #363636;
     cursor: pointer;
 }
