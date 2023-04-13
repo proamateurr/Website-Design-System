@@ -499,9 +499,6 @@ div.fontscontent p.three {
 
 /* Element Styles */
 
-#elementstyles {
-    line-height: 170px;
-}
 
 section.el {
  height: 700px;
@@ -513,7 +510,7 @@ div.elementstylescontent {
     display: inline-grid;
     background-color: #201e2f;
     position: relative;
-    margin: 10px 0px 0px 40px;
+    margin: 75px 0px 0px 40px;
     padding: 0px 0px 0px 0px;
     width: 250px;
     height: 250px;
@@ -547,6 +544,13 @@ div.elementstylescontent div.text p.one span.brackets{
     background-color: #217572;
 }
 
+div.elementstylescontent div.text p.one span.bracketsone{
+    position: absolute;
+    left: 75px;
+    color: rgb(255, 255, 255);
+    background-color: #217572;
+}
+
 div.elementstylescontent div.text p.one span.line{
     color: rgb(255, 255, 255);
 }
@@ -565,7 +569,7 @@ div.elementstylescontent div.text p.two span{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 0px;
-    left: 60px;
+    left: 105px;
     color: #c477bc;
 }
 
@@ -613,7 +617,7 @@ div.elementstylescontent div.text p.four span{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 0px;
-    left: 60px;
+    left: 95px;
     color: #c477bc;
 }
 
@@ -637,7 +641,7 @@ div.elementstylescontent div.text p.five span{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 0px;
-    left: 60px;
+    left: 85px;
     color: #c477bc;
 }
 
