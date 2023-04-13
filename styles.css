@@ -497,15 +497,6 @@ div.fontscontent p.three {
     font-style: italic;
 }
 
-.divider {
-    max-height: 10px;
-    max-width: 600px;
-    transform: rotate(0.25turn);
-    position: absolute;
-    right: 647px;
-    bottom: -1585px;
-}
-
 /* Element Styles */
 
 #elementstyles {
@@ -526,6 +517,7 @@ div.elementstylescontent {
     padding: 0px 0px 0px 0px;
     width: 250px;
     height: 250px;
+    box-shadow: 5px 5px 0px black;
 }
 
 div.elementstylescontent div.text p{
@@ -539,18 +531,18 @@ div.elementstylescontent div.text p.one{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 16.5px;
-    left: 15px;
+    left: 9px;
     color: #b4d353;
 }
 
 div.elementstylescontent div.text p.one span.element{
     position: absolute;
-    left: 37.5px;
+    left: 27.5px;
 }
 
 div.elementstylescontent div.text p.one span.brackets{
     position: absolute;
-    left: 170px;
+    left: 135px;
     color: rgb(255, 255, 255);
     background-color: #217572;
 }
@@ -563,8 +555,8 @@ div.elementstylescontent div.text p.two{
     position: absolute;
     font-size: 25px;
     font-family: 'Bebas Neue';
-    top: 65px;
-    left: 90px;
+    top: 55px;
+    left: 70px;
     color: #69c4c1;
 }
 
@@ -579,7 +571,7 @@ div.elementstylescontent div.text p.two span{
 
 div.elementstylescontent div.text p.two span.linetwo{
     position: absolute;
-    left: -75px;
+    left: -60px;
     color: rgb(255, 255, 255);
 }
 
@@ -587,8 +579,8 @@ div.elementstylescontent div.text p.three{
     position: absolute;
     font-size: 25px;
     font-family: 'Bebas Neue';
-    top: 92.5px;
-    left: 90px;
+    top: 95px;
+    left: 70px;
     color: #69c4c1;
 }
 
@@ -603,7 +595,7 @@ div.elementstylescontent div.text p.three span{
 
 div.elementstylescontent div.text p.three span.linethree{
     position: absolute;
-    left: -75px;
+    left: -60px;
     color: rgb(255, 255, 255);
 }
 
@@ -612,7 +604,7 @@ div.elementstylescontent div.text p.four{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 130px;
-    left: 90px;
+    left: 70px;
     color: #69c4c1;
 }
 
@@ -627,7 +619,7 @@ div.elementstylescontent div.text p.four span{
 
 div.elementstylescontent div.text p.four span.linefour{
     position: absolute;
-    left: -75px;
+    left: -60px;
     color: rgb(255, 255, 255);
 }
 
@@ -636,7 +628,7 @@ div.elementstylescontent div.text p.five{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 170px;
-    left: 90px;
+    left: 70px;
     color: #69c4c1;
 }
 
@@ -651,7 +643,7 @@ div.elementstylescontent div.text p.five span{
 
 div.elementstylescontent div.text p.five span.linefive{
     position: absolute;
-    left: -75px;
+    left: -60px;
     color: rgb(255, 255, 255);
 }
 
@@ -660,7 +652,7 @@ div.elementstylescontent div.text p.six{
     font-size: 25px;
     font-family: 'Bebas Neue';
     top: 208.5px;
-    left: 90px;
+    left: 70px;
     color: #69c4c1;
 }
 
@@ -676,7 +668,7 @@ div.elementstylescontent div.text p.six span.closebracket{
 
 div.elementstylescontent div.text p.six span.linesix{
     position: absolute;
-    left: -75px;
+    left: -60px;
     color: rgb(255, 255, 255);
 }
 
