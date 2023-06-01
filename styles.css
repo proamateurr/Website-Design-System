@@ -6,88 +6,95 @@
 
 /* Header Styling */
 
-h1.title {
-    line-height: 190px;
-    font-family: 'bebas neue';
-    font-size: 200px;
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    position: relative;
-    top: 75px;
-    margin: auto;
-}
+    
 
-h2.subtitle {
-    line-height: 10px;
-    font-family: 'bebas neue';
-    font-size: 50px;
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    position: relative;
-    top: 100px;
-    margin: 0 auto;
-}
+    h1.title {
+        line-height: 190px;
+        font-family: 'bebas neue';
+        font-size: 200px;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+        top: 75px;
+        margin: auto;
+    }
 
-header {
-    max-width: fit-content;
-    max-height: fit-content;
-    display: flex;
-    flex-direction: row;
-    margin: 50px auto 0px auto;
-}
+    h2.subtitle {
+        line-height: 10px;
+        font-family: 'bebas neue';
+        font-size: 50px;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        margin: 0 auto;
+    }
 
-header nav button {
-    cursor: pointer;
-    background-color: transparent;
-    margin: 150px 50px 150px 50px;
-    width: 500px;
-    height: 500px;
-    padding: 0px 10px 0px 10px;
-    box-shadow: 10px 10px 0px 0px #000000;
-}
+    header {
+        max-width: fit-content;
+        max-height: fit-content;
+        display: flex;
+        flex-direction: row;
+        margin: 50px auto 0px auto;
+    }
+
+    header nav button {
+        cursor: pointer;
+        background-color: transparent;
+        margin: 150px 50px 150px 50px;
+        width: 500px;
+        height: 500px;
+        padding: 0px 10px 0px 10px;
+        box-shadow: 10px 10px 0px 0px #000000;
+    }
+/* Styling End */
+
 
 /* Colors Button Styling */
 
-button.colors {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background: linear-gradient(
-        to bottom,
-        red 0%,
-        red 16.67%,
-        orange 16.67%,
-        orange 33.34%,
-        yellow 33.34%,
-        yellow 50.01%,
-        green 50.01%,
-        green 66.68%,
-        blue 66.68%,
-        blue 83.35%,
-        purple 83.35%,
-        purple 100%
-    );
-}
+    button.colors {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(
+            to bottom,
+            red 0%,
+            red 16.67%,
+            orange 16.67%,
+            orange 33.34%,
+            yellow 33.34%,
+            yellow 50.01%,
+            green 50.01%,
+            green 66.68%,
+            blue 66.68%,
+            blue 83.35%,
+            purple 83.35%,
+            purple 100%
+        );
+    }
 
-button.colors p.text {
-    position: absolute;
-    font-family: 'Bebas Neue';
-    display: inline;
-    font-size: 100px;
-    top: 5px;
-    left: 10px;
-    font-weight: bold;
-    line-height: 83px;
-}
+    button.colors p.text {
+        position: absolute;
+        font-family: 'Bebas Neue';
+        display: inline;
+        font-size: 100px;
+        top: 5px;
+        left: 10px;
+        font-weight: bold;
+        line-height: 83px;
+    }
 
-button.colors:active {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    box-shadow: none;
-}
+    button.colors:active {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        box-shadow: none;
+    }
+
+/* Styling End */
+
 
 /* Fonts Button Styling */
 
@@ -193,525 +200,540 @@ button.colors:active {
         box-shadow: none;
 
     }
+/* Styling End */
+
 
 /* Element Styles Button Styling */
 
-/* Code Cademy Color Scheme for CSS Sheets */
+    /* Code Cademy Color Scheme for CSS Sheets */
 
-/* Background: #201e2f
-Selector: #b4d353
-HTML Tags: #c55e7a
-Properties: #69c4c1
-Word Values: #c477bc
-Number Values: #ff8973 */
+    /* Background: #201e2f
+    Selector: #b4d353
+    HTML Tags: #c55e7a
+    Properties: #69c4c1
+    Word Values: #c477bc
+    Number Values: #ff8973 */
 
 
-button.elementstyles {
-    background-color: #201e2f;
-    position: relative;
-    padding: 0;
-}
+    button.elementstyles {
+        background-color: #201e2f;
+        position: relative;
+        padding: 0;
+    }
 
-button.elementstyles div.text p,{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-}
+    button.elementstyles div.text p,{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+    }
 
-button.elementstyles div.text p.one{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 33px;
-    left: 30px;
-    color: #b4d353;
-}
+    button.elementstyles div.text p.one{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 33px;
+        left: 30px;
+        color: #b4d353;
+    }
 
-button.elementstyles div.text p.one span.element{
-    position: absolute;
-    left: 75px;
-}
+    button.elementstyles div.text p.one span.element{
+        position: absolute;
+        left: 75px;
+    }
 
-button.elementstyles div.text p.one span.brackets{
-    position: absolute;
-    left: 340px;
-    color: rgb(255, 255, 255);
-    background-color: #217572;
-}
+    button.elementstyles div.text p.one span.brackets{
+        position: absolute;
+        left: 340px;
+        color: rgb(255, 255, 255);
+        background-color: #217572;
+    }
 
-button.elementstyles div.text p.one span.line{
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.one span.line{
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles div.text p.two{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 110px;
-    left: 180px;
-    color: #69c4c1;
-}
+    button.elementstyles div.text p.two{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 110px;
+        left: 180px;
+        color: #69c4c1;
+    }
 
-button.elementstyles div.text p.two span{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 120px;
-    color: #c477bc;
-}
+    button.elementstyles div.text p.two span{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 120px;
+        color: #c477bc;
+    }
 
-button.elementstyles div.text p.two span.linetwo{
-    position: absolute;
-    left: -150px;
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.two span.linetwo{
+        position: absolute;
+        left: -150px;
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles div.text p.three{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 185px;
-    left: 180px;
-    color: #69c4c1;
-}
+    button.elementstyles div.text p.three{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 185px;
+        left: 180px;
+        color: #69c4c1;
+    }
 
-button.elementstyles div.text p.three span{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 120px;
-    color: #c477bc;
-}
+    button.elementstyles div.text p.three span{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 120px;
+        color: #c477bc;
+    }
 
-button.elementstyles div.text p.three span.linethree{
-    position: absolute;
-    left: -150px;
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.three span.linethree{
+        position: absolute;
+        left: -150px;
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles div.text p.four{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 260px;
-    left: 180px;
-    color: #69c4c1;
-}
+    button.elementstyles div.text p.four{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 260px;
+        left: 180px;
+        color: #69c4c1;
+    }
 
-button.elementstyles div.text p.four span{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 120px;
-    color: #c477bc;
-}
+    button.elementstyles div.text p.four span{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 120px;
+        color: #c477bc;
+    }
 
-button.elementstyles div.text p.four span.linefour{
-    position: absolute;
-    left: -150px;
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.four span.linefour{
+        position: absolute;
+        left: -150px;
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles div.text p.five{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 340px;
-    left: 180px;
-    color: #69c4c1;
-}
+    button.elementstyles div.text p.five{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 340px;
+        left: 180px;
+        color: #69c4c1;
+    }
 
-button.elementstyles div.text p.five span{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 120px;
-    color: #c477bc;
-}
+    button.elementstyles div.text p.five span{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 120px;
+        color: #c477bc;
+    }
 
-button.elementstyles div.text p.five span.linefive{
-    position: absolute;
-    left: -150px;
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.five span.linefive{
+        position: absolute;
+        left: -150px;
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles div.text p.six{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 417px;
-    left: 180px;
-    color: #69c4c1;
-}
+    button.elementstyles div.text p.six{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 417px;
+        left: 180px;
+        color: #69c4c1;
+    }
 
-button.elementstyles div.text p.six span.closebracket{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: -65px;
-    color: #ffffff;
-    background-color: #217572;
-}
+    button.elementstyles div.text p.six span.closebracket{
+        position: absolute;
+        font-size: 50px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: -65px;
+        color: #ffffff;
+        background-color: #217572;
+    }
 
-button.elementstyles div.text p.six span.linesix{
-    position: absolute;
-    left: -150px;
-    color: rgb(255, 255, 255);
-}
+    button.elementstyles div.text p.six span.linesix{
+        position: absolute;
+        left: -150px;
+        color: rgb(255, 255, 255);
+    }
 
-button.elementstyles:active {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    box-shadow: none;
-}
+    button.elementstyles:active {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        box-shadow: none;
+    }
+
+/* Styling End */
+
+
 /* Main and Sections Styling */
 
-main h1 {
-    line-height: 190px;
-    font-family: 'bebas neue';
-    font-size: 200px;
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    position: relative;
-    top: 0px;
-}
+    main h1 {
+        line-height: 190px;
+        font-family: 'bebas neue';
+        font-size: 200px;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+        top: 0px;
+    }
 
-.colorcontent {
-    height: 700px;
-    width: 1000px;
-    max-width: 1000px;
-    min-height: 500px;
-    min-width: 500px;
-    margin: 10px auto 100px auto;
-}
+    .colorcontent {
+        height: 700px;
+        width: 1000px;
+        max-width: 1000px;
+        min-height: 500px;
+        min-width: 500px;
+        margin: 10px auto 100px auto;
+    }
 
-.fontscontent {
-    margin: auto;
-    height: 700px;
-    width: 1500px;
-    max-width: 1300px;
-    min-height: 500px;
-    min-width: 500px;
-    margin: 10px auto 100px auto;
-}
+    .fontscontent {
+        margin: auto;
+        height: 700px;
+        width: 1500px;
+        max-width: 1300px;
+        min-height: 500px;
+        min-width: 500px;
+        margin: 10px auto 100px auto;
+    }
+/* Styling End */
+
 
 /* Colors Section */
 
-.colorcontent #colorpicker{
-    width: 100px;
-    height: 100px;
-}
+    .colorcontent #colorpicker{
+        width: 100px;
+        height: 100px;
+    }
+/* Styling End */
+
 
 /* Fonts Section */
 
-div.fontscontent div {
-    padding-bottom: 50px;
-    border-bottom: 2px solid black;
-    margin: 0px 0px -50px 0px;
-    top: auto;
-    height: 750px;
-    width: 1000px;
-}
+    div.fontscontent div {
+        padding-bottom: 50px;
+        border-bottom: 2px solid black;
+        margin: 0px 0px -50px 0px;
+        top: auto;
+        height: 750px;
+        width: 1000px;
+    }
 
-div.fontscontent div.BebasNeues {
-    font-family: 'Bebas Neue';
-    position: relative;
-    top: 0px;
-    height: 200px;
-    width: 550px;
-    float: left;
-    text-align: left;
-}
+    div.fontscontent div.BebasNeues {
+        font-family: 'Bebas Neue';
+        position: relative;
+        top: 0px;
+        height: 200px;
+        width: 550px;
+        float: left;
+        text-align: left;
+    }
 
-div.fontscontent div.Anton {
-    font-family: 'Anton';
-    position: relative;
-    top: 0px;
-    height: 200px;
-    width: 600px;
-    float: right;
-    text-align: right;
-}
+    div.fontscontent div.Anton {
+        font-family: 'Anton';
+        position: relative;
+        top: 0px;
+        height: 200px;
+        width: 600px;
+        float: right;
+        text-align: right;
+    }
 
-div.fontscontent div.Caveat {
-    font-family: 'Caveat';
-    position: relative;
-    top: 100px;
-    height: 200px;
-    width: 550px;
-    float: left;
-    text-align: left;
-}
+    div.fontscontent div.Caveat {
+        font-family: 'Caveat';
+        position: relative;
+        top: 100px;
+        height: 200px;
+        width: 550px;
+        float: left;
+        text-align: left;
+    }
 
-div.fontscontent div.RobotoCondensed {
-    font-family: 'Roboto Condensed';
-    position: relative;
-    top: 100px;
-    height: 200px;
-    width: 600px;
-    float: right;
-    text-align: right;
+    div.fontscontent div.RobotoCondensed {
+        font-family: 'Roboto Condensed';
+        position: relative;
+        top: 100px;
+        height: 200px;
+        width: 600px;
+        float: right;
+        text-align: right;
 
-}
+    }
 
-div.fontscontent div.Pathway {
-    font-family: 'Pathway Gothic Script';
-    position: relative;
-    top: 200px;
-    height: 200px;
-    width: 600px;
-    float: right;
-    text-align: right;
-    border-bottom: none;
-}
+    div.fontscontent div.Pathway {
+        font-family: 'Pathway Gothic Script';
+        position: relative;
+        top: 200px;
+        height: 200px;
+        width: 600px;
+        float: right;
+        text-align: right;
+        border-bottom: none;
+    }
 
-div.fontscontent div.Script {
-    font-family: 'Dancing Script';
-    position: relative;
-    top: 200px;
-    height: 200px;
-    width: 600px;
-    float: left;
-    text-align: left;
-    border-bottom: none;
-}
+    div.fontscontent div.Script {
+        font-family: 'Dancing Script';
+        position: relative;
+        top: 200px;
+        height: 200px;
+        width: 600px;
+        float: left;
+        text-align: left;
+        border-bottom: none;
+    }
 
-div.fontscontent p.one {
-    font-size: 15px;
-}
+    div.fontscontent p.one {
+        font-size: 15px;
+    }
 
-div.fontscontent p.two {
-    font-size: 30px;
-    font-weight: 800;
-}
+    div.fontscontent p.two {
+        font-size: 30px;
+        font-weight: 800;
+    }
 
-div.fontscontent p.three {
-    font-size: 45px;
-    font-style: italic;
-}
+    div.fontscontent p.three {
+        font-size: 45px;
+        font-style: italic;
+    }
+/* Styling End */
+
 
 /* Element Styles */
 
 
-section.el {
- height: 700px;
- width: 1200px;
- margin: 0px auto 150px auto;
-}
+    section.el {
+    height: 700px;
+    width: 1200px;
+    margin: 0px auto 150px auto;
+    }
 
-div.elementstylescontent {
-    display: inline-grid;
-    background-color: #201e2f;
-    position: relative;
-    margin: 75px 0px 0px 40px;
-    padding: 0px 0px 0px 0px;
-    width: 250px;
-    height: 250px;
-    box-shadow: 5px 5px 0px black;
-}
+    div.elementstylescontent {
+        display: inline-grid;
+        background-color: #201e2f;
+        position: relative;
+        margin: 75px 0px 0px 40px;
+        padding: 0px 0px 0px 0px;
+        width: 250px;
+        height: 250px;
+        box-shadow: 5px 5px 0px black;
+    }
 
-div.elementstylescontent div.text p{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-}
+    div.elementstylescontent div.text p{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+    }
 
-div.elementstylescontent div.text p.one{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 16.5px;
-    left: 9px;
-    color: #b4d353;
-}
+    div.elementstylescontent div.text p.one{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 16.5px;
+        left: 9px;
+        color: #b4d353;
+    }
 
-div.elementstylescontent div.text p.one span.element{
-    position: absolute;
-    left: 27.5px;
-}
+    div.elementstylescontent div.text p.one span.element{
+        position: absolute;
+        left: 27.5px;
+    }
 
-div.elementstylescontent div.text p.one span.brackets{
-    position: absolute;
-    left: 135px;
-    color: rgb(255, 255, 255);
-    background-color: #217572;
-}
+    div.elementstylescontent div.text p.one span.brackets{
+        position: absolute;
+        left: 135px;
+        color: rgb(255, 255, 255);
+        background-color: #217572;
+    }
 
-div.elementstylescontent div.text p.one span.bracketsone{
-    position: absolute;
-    left: 75px;
-    color: rgb(255, 255, 255);
-    background-color: #217572;
-}
+    div.elementstylescontent div.text p.one span.bracketsone{
+        position: absolute;
+        left: 75px;
+        color: rgb(255, 255, 255);
+        background-color: #217572;
+    }
 
-div.elementstylescontent div.text p.one span.line{
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.one span.line{
+        color: rgb(255, 255, 255);
+    }
 
-div.elementstylescontent div.text p.two{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 55px;
-    left: 70px;
-    color: #69c4c1;
-}
+    div.elementstylescontent div.text p.two{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 55px;
+        left: 70px;
+        color: #69c4c1;
+    }
 
-div.elementstylescontent div.text p.two span{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 105px;
-    color: #c477bc;
-}
+    div.elementstylescontent div.text p.two span{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 105px;
+        color: #c477bc;
+    }
 
-div.elementstylescontent div.text p.two span.linetwo{
-    position: absolute;
-    left: -60px;
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.two span.linetwo{
+        position: absolute;
+        left: -60px;
+        color: rgb(255, 255, 255);
+    }
 
-div.elementstylescontent div.text p.three{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 95px;
-    left: 70px;
-    color: #69c4c1;
-}
+    div.elementstylescontent div.text p.three{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 95px;
+        left: 70px;
+        color: #69c4c1;
+    }
 
-div.elementstylescontent div.text p.three span{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 60px;
-    color: #c477bc;
-}
+    div.elementstylescontent div.text p.three span{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 60px;
+        color: #c477bc;
+    }
 
-div.elementstylescontent div.text p.three span.linethree{
-    position: absolute;
-    left: -60px;
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.three span.linethree{
+        position: absolute;
+        left: -60px;
+        color: rgb(255, 255, 255);
+    }
 
-div.elementstylescontent div.text p.four{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 130px;
-    left: 70px;
-    color: #69c4c1;
-}
+    div.elementstylescontent div.text p.four{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 130px;
+        left: 70px;
+        color: #69c4c1;
+    }
 
-div.elementstylescontent div.text p.four span{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 95px;
-    color: #c477bc;
-}
+    div.elementstylescontent div.text p.four span{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 95px;
+        color: #c477bc;
+    }
 
-div.elementstylescontent div.text p.four span.linefour{
-    position: absolute;
-    left: -60px;
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.four span.linefour{
+        position: absolute;
+        left: -60px;
+        color: rgb(255, 255, 255);
+    }
 
-div.elementstylescontent div.text p.five{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 170px;
-    left: 70px;
-    color: #69c4c1;
-}
+    div.elementstylescontent div.text p.five{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 170px;
+        left: 70px;
+        color: #69c4c1;
+    }
 
-div.elementstylescontent div.text p.five span{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: 85px;
-    color: #c477bc;
-}
+    div.elementstylescontent div.text p.five span{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: 85px;
+        color: #c477bc;
+    }
 
-div.elementstylescontent div.text p.five span.linefive{
-    position: absolute;
-    left: -60px;
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.five span.linefive{
+        position: absolute;
+        left: -60px;
+        color: rgb(255, 255, 255);
+    }
 
-div.elementstylescontent div.text p.six{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 208.5px;
-    left: 70px;
-    color: #69c4c1;
-}
+    div.elementstylescontent div.text p.six{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 208.5px;
+        left: 70px;
+        color: #69c4c1;
+    }
 
-div.elementstylescontent div.text p.six span.closebracket{
-    position: absolute;
-    font-size: 25px;
-    font-family: 'Bebas Neue';
-    top: 0px;
-    left: -32.5px;
-    color: #ffffff;
-    background-color: #217572;
-}
+    div.elementstylescontent div.text p.six span.closebracket{
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        top: 0px;
+        left: -32.5px;
+        color: #ffffff;
+        background-color: #217572;
+    }
 
-div.elementstylescontent div.text p.six span.linesix{
-    position: absolute;
-    left: -60px;
-    color: rgb(255, 255, 255);
-}
+    div.elementstylescontent div.text p.six span.linesix{
+        position: absolute;
+        left: -60px;
+        color: rgb(255, 255, 255);
+    }
 
+/* Styling End */
 
 
 /* Back To Top Button */ 
 
-.backtotop {
-    border: none;
-    background-color: transparent;
-    font-family: 'Bebas Neue';
-    line-height: 50px;
-    font-size: 50px;
-    float: right;
-    position: sticky;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-}
+    .backtotop {
+        border: none;
+        background-color: transparent;
+        font-family: 'Bebas Neue';
+        line-height: 50px;
+        font-size: 50px;
+        float: right;
+        position: sticky;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+    }
 
-.backtotop:hover {
-    color: #363636;
-    cursor: pointer;
-}
+    .backtotop:hover {
+        color: #363636;
+        cursor: pointer;
+    }
 
-.thanks {
-    border: none;
-    background-color: transparent;
-    font-family: 'Bebas Neue';
-    line-height: 50px;
-    font-size: 50px;
-    float: left;
-    position: sticky;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-}
+    .thanks {
+        border: none;
+        background-color: transparent;
+        font-family: 'Bebas Neue';
+        line-height: 50px;
+        font-size: 50px;
+        float: left;
+        position: sticky;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+    }
 
-.thanks:hover {
-    color: #363636;
-    cursor: pointer;
-}
+    .thanks:hover {
+        color: #363636;
+        cursor: pointer;
+    }
+
+/* Styling End */
