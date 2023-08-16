@@ -16,7 +16,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 100px 0px;
+        margin: 100px 0px 0px 0px;
     }
 
     #titleContainer  {
@@ -43,6 +43,10 @@ body {
         height: 500px;
         padding: 0px 10px 0px 10px;
         box-shadow: 10px 10px 0px 0px #000000;
+    }
+
+    nav {
+        display: flex;
     }
 
     @media only screen and (max-width: 1808px) {
@@ -72,10 +76,17 @@ body {
 
 /* Colors Button Styling */
 
-    button.colors {
-        position: relative;
+    a { 
+        text-decoration: none;
+    }
+
+    button {
         width: 500px;
         height: 500px;
+    }
+
+    button.colors {
+        display: flex;
         background: linear-gradient(
             to bottom,
             red 0%,
@@ -94,14 +105,10 @@ body {
     }
 
     button.colors p.text {
-        position: absolute;
         font-family: 'Bebas Neue';
-        display: inline;
         font-size: 6.25rem;
-        top: .3125rem;
-        left: .625rem;
         font-weight: bold;
-        line-height: 5.1875rem;
+        line-height: 5.25rem;
     }
 
     button.colors:active {
@@ -233,19 +240,19 @@ body {
     Number Values: #ff8973 */
 
 
-    button.elementstyles {
+    button.elementStyles {
         background-color: #201e2f;
         position: relative;
         padding: 0;
     }
 
-    button.elementstyles div.text p,{
+    button.elementStyles div.text p {
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
     }
 
-    button.elementstyles div.text p.one{
+    button.elementStyles div.text p.one{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -254,23 +261,23 @@ body {
         color: #b4d353;
     }
 
-    button.elementstyles div.text p.one span.element{
+    button.elementStyles div.text p.one span.element{
         position: absolute;
         left: 75px;
     }
 
-    button.elementstyles div.text p.one span.brackets{
+    button.elementStyles div.text p.one span.brackets{
         position: absolute;
         left: 340px;
         color: rgb(255, 255, 255);
         background-color: #217572;
     }
 
-    button.elementstyles div.text p.one span.line{
+    button.elementStyles div.text p.one span.line{
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles div.text p.two{
+    button.elementStyles div.text p.two{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -279,7 +286,7 @@ body {
         color: #69c4c1;
     }
 
-    button.elementstyles div.text p.two span{
+    button.elementStyles div.text p.two span{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -288,13 +295,13 @@ body {
         color: #c477bc;
     }
 
-    button.elementstyles div.text p.two span.linetwo{
+    button.elementStyles div.text p.two span.linetwo{
         position: absolute;
         left: -150px;
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles div.text p.three{
+    button.elementStyles div.text p.three{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -303,7 +310,7 @@ body {
         color: #69c4c1;
     }
 
-    button.elementstyles div.text p.three span{
+    button.elementStyles div.text p.three span{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -312,13 +319,13 @@ body {
         color: #c477bc;
     }
 
-    button.elementstyles div.text p.three span.linethree{
+    button.elementStyles div.text p.three span.linethree{
         position: absolute;
         left: -150px;
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles div.text p.four{
+    button.elementStyles div.text p.four{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -327,7 +334,7 @@ body {
         color: #69c4c1;
     }
 
-    button.elementstyles div.text p.four span{
+    button.elementStyles div.text p.four span{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -336,13 +343,13 @@ body {
         color: #c477bc;
     }
 
-    button.elementstyles div.text p.four span.linefour{
+    button.elementStyles div.text p.four span.linefour{
         position: absolute;
         left: -150px;
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles div.text p.five{
+    button.elementStyles div.text p.five{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -351,7 +358,7 @@ body {
         color: #69c4c1;
     }
 
-    button.elementstyles div.text p.five span{
+    button.elementStyles div.text p.five span{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -360,13 +367,13 @@ body {
         color: #c477bc;
     }
 
-    button.elementstyles div.text p.five span.linefive{
+    button.elementStyles div.text p.five span.linefive{
         position: absolute;
         left: -150px;
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles div.text p.six{
+    button.elementStyles div.text p.six{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -375,7 +382,7 @@ body {
         color: #69c4c1;
     }
 
-    button.elementstyles div.text p.six span.closebracket{
+    button.elementStyles div.text p.six span.closebracket{
         position: absolute;
         font-size: 50px;
         font-family: 'Bebas Neue';
@@ -385,13 +392,13 @@ body {
         background-color: #217572;
     }
 
-    button.elementstyles div.text p.six span.linesix{
+    button.elementStyles div.text p.six span.linesix{
         position: absolute;
         left: -150px;
         color: rgb(255, 255, 255);
     }
 
-    button.elementstyles:active {
+    button.elementStyles:active {
         position: relative;
         top: 10px;
         left: 10px;
@@ -403,7 +410,8 @@ body {
 
 /* Main and Sections Styling */
     main {
-        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
     }
 
     main h1 {
@@ -440,6 +448,10 @@ body {
 
 /* Colors Section */
 
+    #colors {
+        margin: 100px;
+    }
+
     .colorcontent #colorpicker{
         width: 100px;
         height: 100px;
@@ -448,6 +460,9 @@ body {
 
 
 /* Fonts Section */
+
+    #fonts {
+    }
 
     div.fontscontent div {
         padding-bottom: 50px;
