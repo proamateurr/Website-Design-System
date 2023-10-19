@@ -1,21 +1,45 @@
 * {
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
     box-sizing: border-box; 
     padding: 0; 
     margin: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    border: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-body {
-
+.navButton {
+    cursor: pointer;
+    background-color: transparent;
+    width: clamp(250px, 30vw, 500px);
+    max-width: 500px;
+    height: clamp(250px, 30vw, 500px);
+    max-height: 500px;
+    box-shadow: 10px 10px 0px 0px #000000;
+    margin: 0;
 }
 
-.container {
-    max-width: 1920px;
-    margin: 0 auto;
+@media only screen and (max-width: 1080px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+} 
+
+@media only screen and (max-width: 565px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Header Styling */
@@ -25,103 +49,62 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-shrink: 2;
-        margin: 0px 0px 0px 0px;
     }
 
-    #titleContainer  {
-        width: 100%;
-        height: 100%
-    }
 
-    h1.title {
+    #title {
         font-family: 'bebas neue';
-        font-size: 12.5rem;
-        font-size: 10vw;
+        font-size: clamp(5rem, 10vw, 12.5rem);
+        text-align: center;
+        max-height: 500px;
+    }
+
+
+    #subtitle {
+        font-family: 'bebas neue';
+        font-size: clamp(1.25rem, 2.5vw, 3.25rem);
         text-align: center;
     }
 
-    /* @media only screen and () */
-
-    h2.subtitle {
-        font-family: 'bebas neue';
-        font-size: 3.125rem;
-        text-align: center;
-    }
-
-    header nav button {
-        cursor: pointer;
-        background-color: transparent;
-        margin: 150px 50px 150px 50px;
-        width: 500 ;
-        height: 500px;
-        padding: 0px 10px 0px 10px;
-        box-shadow: 10px 10px 0px 0px #000000;
+    #navContainer {
+        margin: auto;
     }
 
     nav {
+        margin: 2.5vh;
         display: flex;
+        justify-content: center;
     }
-/* 
-    @media only screen and (max-width: 1808px) {
-        
-        #header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        } 
-
-        #titleContainer {
-
-        }
-
-        #nav nav {
-            display: flex;
-            flex-wrap: none;
-            flex-shrink: 2;
-        }
-
-    } */
-    
 
 /* Styling End */
 
 
 /* Colors Button Styling */
 
-    button.colors {
-        width: 33vw;
-        max-width: 500px;
-        height: 33vw;
-        max-height: 500px;
+    #colorButton {
+        margin: 20px;
+    }
+
+    #colorTextContainer {
+        height: 100%;
+        width: 100%;
         display: flex;
-        background: linear-gradient(
-            to bottom,
-            red 0%,
-            red 16.67%,
-            orange 16.67%,
-            orange 33.34%,
-            yellow 33.34%,
-            yellow 50.01%,
-            green 50.01%,
-            green 66.68%,
-            blue 66.68%,
-            blue 83.35%,
-            purple 83.35%,
-            purple 100%
-        );
-        flex-basis: content;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
-    button.colors p.colortext {
-        font-family: 'Bebas Neue';
-        font-size: 6.25rem;
-        font-weight: bold;
-        line-height: 5.25rem;
+    .svgLetter {
+        padding: 5px 5px;
+        width: 100%;
+        height: 16.68%;
+        text-align: start;
     }
 
-    button.colors:active {
+    .colortext {
+        height: 100%;
+    }
+
+    .colors:active {
         position: relative;
         top: 10px;
         left: 10px;
@@ -133,282 +116,27 @@ body {
 
 /* Fonts Button Styling */
 
-    button.fonts {
-        padding:  0;
-        position: relative;
+    #fontsButton {
+        margin: 20px;
     }
 
-    button.fonts div.fonts p{
-        font-size:30px;
-        font-weight:900;
-        color:#cccccc;
-        position:absolute;
-        z-index:-1;
-    }
-
-    button.fonts div.fonts p.one {
-        font-size: 40.4px;
-        position: absolute;
-        top: 0px;
-    }
-
-    button.fonts div.fonts p.two {
-        font-family: 'Courier New', Courier, monospace;
-        letter-spacing: -5px;
-        word-spacing: -15px;
-        font-size: 40.1px;
-        position: absolute;
-        top: 50px;
-    }
-
-    button.fonts div.fonts p.three {
-        font-family: 'Sedgwick Ave Display';
-        letter-spacing: -2px;
-        font-size: 44px;
-        position: absolute;
-        top: 100px;
-    }
-
-    button.fonts div.fonts p.four {
-        font-family: 'Inspiration';
-        word-spacing: -5px;
-        font-size: 42.2px;
-        position: absolute;
-        top: 154px;
-    }
-
-    button.fonts div.fonts p.five {
-        font-family: anton;
-        font-size: 41.9px;
-        position: absolute;
-        top: 204px;
-    }
-
-    button.fonts div.fonts p.six {
-        font-family: caveat;
-        font-size: 38.8px;
-        position: absolute;
-        top: 260px;
-    }
-
-    button.fonts div.fonts p.seven {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        letter-spacing: -2px;
-        font-size: 40.3px;
-        position: absolute;
-        top: 305px;
-    }
-
-    button.fonts div.fonts p.eight {
-        font-family: Dancing Script;
-        font-size: 39px;
-        position: absolute;
-        top: 356px;
-    }
-
-    button.fonts div.fonts p.nine {
-        font-family: Cursive;
-        word-spacing: -10px;
-        letter-spacing: -2px;
-        font-size: 40px;
-        position: absolute;
-        top: 400px;
-    }
-
-    button.fonts div.fonts p.ten {
-        font-family: Allura;
-        font-size: 41.3px;
-        position: absolute;
-        top: 455px;
-    }
-
-    button.fonts div.fonts {
-        font-family: 'Bebas Neue';
-        display: inline;
-        font-size: 100px;
-    }
-
-    button.fonts:active {
+    .fonts:active {
         position: relative;
         top: 10px;
         left: 10px;
         box-shadow: none;
-
     }
+
 /* Styling End */
 
 
 /* Element Styles Button Styling */
 
-    /* Code Cademy Color Scheme for CSS Sheets */
-
-    /* Background: #201e2f
-    Selector: #b4d353
-    HTML Tags: #c55e7a
-    Properties: #69c4c1
-    Word Values: #c477bc
-    Number Values: #ff8973 */
-
-
-    button.elementStyles {
-        background-color: #201e2f;
-        position: relative;
-        padding: 0;
+    #elementStylesButton {
+        margin: 20px;
     }
 
-    button.elementStyles div.text p {
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-    }
-
-    button.elementStyles div.text p.one{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 33px;
-        left: 30px;
-        color: #b4d353;
-    }
-
-    button.elementStyles div.text p.one span.element{
-        position: absolute;
-        left: 75px;
-    }
-
-    button.elementStyles div.text p.one span.brackets{
-        position: absolute;
-        left: 340px;
-        color: rgb(255, 255, 255);
-        background-color: #217572;
-    }
-
-    button.elementStyles div.text p.one span.line{
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles div.text p.two{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 110px;
-        left: 180px;
-        color: #69c4c1;
-    }
-
-    button.elementStyles div.text p.two span{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 0px;
-        left: 120px;
-        color: #c477bc;
-    }
-
-    button.elementStyles div.text p.two span.linetwo{
-        position: absolute;
-        left: -150px;
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles div.text p.three{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 185px;
-        left: 180px;
-        color: #69c4c1;
-    }
-
-    button.elementStyles div.text p.three span{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 0px;
-        left: 120px;
-        color: #c477bc;
-    }
-
-    button.elementStyles div.text p.three span.linethree{
-        position: absolute;
-        left: -150px;
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles div.text p.four{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 260px;
-        left: 180px;
-        color: #69c4c1;
-    }
-
-    button.elementStyles div.text p.four span{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 0px;
-        left: 120px;
-        color: #c477bc;
-    }
-
-    button.elementStyles div.text p.four span.linefour{
-        position: absolute;
-        left: -150px;
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles div.text p.five{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 340px;
-        left: 180px;
-        color: #69c4c1;
-    }
-
-    button.elementStyles div.text p.five span{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 0px;
-        left: 120px;
-        color: #c477bc;
-    }
-
-    button.elementStyles div.text p.five span.linefive{
-        position: absolute;
-        left: -150px;
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles div.text p.six{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 417px;
-        left: 180px;
-        color: #69c4c1;
-    }
-
-    button.elementStyles div.text p.six span.closebracket{
-        position: absolute;
-        font-size: 50px;
-        font-family: 'Bebas Neue';
-        top: 0px;
-        left: -65px;
-        color: #ffffff;
-        background-color: #217572;
-    }
-
-    button.elementStyles div.text p.six span.linesix{
-        position: absolute;
-        left: -150px;
-        color: rgb(255, 255, 255);
-    }
-
-    button.elementStyles:active {
+    .elementStyles:active {
         position: relative;
         top: 10px;
         left: 10px;
@@ -416,31 +144,19 @@ body {
     }
 
 /* Styling End */
+
 
 
 /* Main and Sections Styling */
     main {
         display: flex;
         flex-direction: column;
-        flex-shrink: 1.5;
-    }
+    } 
 
     main h1 {
-        line-height: 190px;
         font-family: 'bebas neue';
         font-size: 10vw;
         text-align: center;
-        position: relative;
-        top: 0px;
-    }
-
-    .colorcontent {
-        height: 700px;
-        width: 1000px;
-        max-width: 1000px;
-        min-height: 500px;
-        min-width: 500px;
-        margin: 10px auto 100px auto;
     }
 
     .fontscontent {
@@ -452,7 +168,17 @@ body {
         min-width: 500px;
         margin: 10px auto 100px auto;
     }
-/* Styling End */
+
+    .colorscontent {
+        margin: auto;
+        height: 700px;
+        width: 1500px;
+        max-width: 1300px;
+        min-height: 500px;
+        min-width: 500px;
+        margin: 10px auto 100px auto;
+    }
+    /* Styling End */
 
 
 /* Colors Section */
@@ -465,13 +191,11 @@ body {
         width: 100px;
         height: 100px;
     }
+
 /* Styling End */
 
 
 /* Fonts Section */
-
-    #fonts {
-    }
 
     div.fontscontent div {
         padding-bottom: 50px;
@@ -744,7 +468,7 @@ body {
 
 
 /* Footer Styling */
-
+/*
     #footer {
         display: flex;
         justify-content: space-between;
@@ -786,4 +510,5 @@ body {
         cursor: pointer;
     }
     
-/* Styling End */
+/* Styling End*/ 
+

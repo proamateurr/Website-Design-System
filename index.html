@@ -16,722 +16,675 @@
     <!-- Header + Nav -->
         <header>
             <div id="titleContainer">
-                <h1 class="title">Website Design System</h1>
-                <h2 class="subtitle">a resource website for {styling} an HTML document</h2>
+                <h1 id="title">Website Design System</h1>
+                <h2 id="subtitle">a resource website for <span style="color: #61c6c1;">{styling}</span> an HTML document</h2>
             </div>
 
-            <div id="nav">
+            <div id="navContainer">
                 <Nav>
-
-                    <div id="colorButton">
-                        <a href="#colors"><button class="colors">
-                            <p class="colortext">C<br>O<br>L<br>O<br>R<br>S</p>
-                        </button></a>
-                    </div>
-
-                    <div id="fontsButton">
-                        <a href="#fonts"><button class="fonts">
-                            <div class="fonts">
-                                <p class="one">Fonts Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="two">Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="three">Fonts Fonts Fonts Fonts Fonts </p>
-                                <p class="four">Fonts Fonts Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="five">Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="six">Fonts Fonts Fonts Fonts Fonts Fonts </p>
-                                <p class="seven">Fonts Fonts Fonts Fonts</p>
-                                <p class="eight">Fonts Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="nine">Fonts Fonts Fonts Fonts Fonts</p>
-                                <p class="ten">Fonts Fonts Fonts Fonts Fonts Fonts</p> 
+                    <div id="colorButton" >
+                        <button onclick="window.location.href='#colors';" class="colors navButton">
+                            <div id="colorTextContainer">
+                                <div class="svgLetter" style="background-color: red;">
+                                    <img src="./svgColors/C.svg" class="colortext">
+                                </div>
+                                <div class="svgLetter" style="background-color: orange;">
+                                    <img src="./svgColors/O.svg" class="colortext">
+                                </div>
+                                <div class="svgLetter" style="background-color: yellow;">
+                                    <img src="./svgColors/L.svg" class="colortext">
+                                </div>
+                                <div class="svgLetter" style="background-color: green;">
+                                    <img src="./svgColors/O.svg" class="colortext">
+                                </div>
+                                <div class="svgLetter" style="background-color: blue;">
+                                    <img src="./svgColors/R.svg" class="colortext">
+                                </div>
+                                <div class="svgLetter" style="background-color: purple;">
+                                    <img src="./svgColors/S.svg" class="colortext">
+                                </div>
                             </div>
-                        </button></a>
+                        </button>
                     </div>
 
-                    <div id="elementStylesButton">
-                        <a href="#elementStyles"><button class="elementStyles">
-                            <div class="text">
+                    <div id="fontsButton" >
+                        <button onclick="window.location.href='#fonts';" class="fonts navButton">
+                                <div>
+                                    <img src="./svgFonts/Fonts.svg" alt="fonts image">
+                                </div>
+                        </button>
+                    </div>
 
-                                <p class="one">
-                                    <span class="line">
-                                        27
-                                    </span>
-                                    <span class="element">
-                                        Element.Styles
-                                    </span> 
-                                    <span class="brackets">
-                                        &#123;
-                                    </span>
-                                    </p>
-
-                                <p class="two">
-                                    <span class="linetwo">
-                                        28
-                                    </span>
-                                        Style:
-                                    <span>
-                                        'Fonts'
-                                    </span>
-                                </p>
-
-                                <p class="three">
-                                    <span class="linethree">
-                                        29
-                                    </span>
-                                        Style:
-                                    <span>
-                                        'Colors'
-                                    </span>
-                                </p>
-                                
-                                <p class="four">
-                                    <span class="linefour">
-                                        30
-                                    </span>
-                                        Style:
-                                    <span>
-                                        'Positions'
-                                    </span>
-                                </p>
-
-                                <p class="five">
-                                    <span class="linefive">
-                                        31
-                                    </span>
-                                        Style:
-                                    <span>
-                                        'Size'
-                                    </span>
-                                </p>
-
-                                <p class="six">
-                                    <span class="linesix">
-                                        32
-                                    </span>
-                                    <span class="closebracket"> 
-                                        &#125;
-                                    </span>
+                    <div id="elementStylesButton" >
+                        <button onclick="window.location.href='#elementStyles';" class="elementStyles navButton" >
+                            <img src="./svgElementStyles/elementStyles.svg" alt="elementStyles image">
                                 </p>
 
                             </div>
-                        </button></a>
+                        </button>
                     </div>
                 </Nav>
             </div>
         </header>
-    </div>
+    
 
-    <!-- Main + Sections-->
+    <!-- Main + Sections --> 
+        <div id="mainContainer">
+            <main>
 
-    <main>
-        <div id="colors">   
-            <h1>Colors</h1>
-                <section>
-                    <div class="colorcontent">
-                        <input type="color" id="colorpicker" value="#0000ff">
-                        <p>i want to put a color picker here that i can select the color with a live preview. 
-                            <br> Also, provides me with the hex number. but i don't know how to yet. 
-                                    <br>and, when i learn js i will make the back to top button better. </p>
-                    </div>
-                </section>
-        </div> 
-                
-        <div id="fonts">
-            <h1>Fonts</h1>
-                <section>
-                    <div class="fontscontent">
+                <div id="colors">   
+                    <h1>Colors</h1>
+                        <section>                
+                            <div class="colorscontent">
 
-                        <div class="BebasNeues">
-                            <p>"Bebas Neue"</p>
-                            <p  class="one">Font size and appearance testing</p>
-                            <p  class="two">Font size and appearance testing</p>
-                            <p  class="three">Font size and appearance testing</p>
-                        </div>
+                                <input type="color" id="colorpicker" value="#0000ff">
+                                <p>i want to put a color picker here that i can select the color with a live preview. 
+                                    <br> Also, provides me with the hex number. but i don't know how to yet. 
+                                            <br>and, when i learn js i will make the back to top button better. </p>
+                            </div>
+                        </section>
+                </div> 
+                        
+                <div id="fonts">
+                    <h1>Fonts</h1>
+                        <section>
+                            <div class="fontscontent">
 
-                        <div class="Anton">
-                            <p>"Anton"</p>
-                            <p class="one">Font size and appearance testing</p>
-                            <p class="two">Font size and appearance testing</p>
-                            <p class="three">Font size and appearance testing</p>
-                        </div>
+                                <div class="BebasNeues">
+                                    <p>"Bebas Neue"</p>
+                                    <p  class="one">Font size and appearance testing</p>
+                                    <p  class="two">Font size and appearance testing</p>
+                                    <p  class="three">Font size and appearance testing</p>
+                                </div>
 
-                        <div class="Caveat">
-                            <p>"Caveat"</p>
-                            <p class="one">Font size and appearance testing</p>
-                            <p class="two">Font size and appearance testing</p>
-                            <p class="three">Font size and appearance testing</p>
-                        </div>
+                                <div class="Anton">
+                                    <p>"Anton"</p>
+                                    <p class="one">Font size and appearance testing</p>
+                                    <p class="two">Font size and appearance testing</p>
+                                    <p class="three">Font size and appearance testing</p>
+                                </div>
 
-                        <div class="RobotoCondensed">
-                            <p>"Roboto Condensed"</p>
-                            <p class="one">Font size and appearance testing</p>
-                            <p class="two">Font size and appearance testing</p>
-                            <p class="three">Font size and appearance testing</p>
-                        </div>
+                                <div class="Caveat">
+                                    <p>"Caveat"</p>
+                                    <p class="one">Font size and appearance testing</p>
+                                    <p class="two">Font size and appearance testing</p>
+                                    <p class="three">Font size and appearance testing</p>
+                                </div>
 
-                        <div class="Pathway">
-                            <p>"Pathway Gothic One"</p>
-                            <p class="one">Font size and appearance testing</p>
-                            <p class="two">Font size and appearance testing</p>
-                            <p class="three">Font size and appearance testing</p>
-                        </div>
+                                <div class="RobotoCondensed">
+                                    <p>"Roboto Condensed"</p>
+                                    <p class="one">Font size and appearance testing</p>
+                                    <p class="two">Font size and appearance testing</p>
+                                    <p class="three">Font size and appearance testing</p>
+                                </div>
 
-                        <div class="Script">
-                            <p>"Dancing Script"</p>
-                            <p class="one">Font size and appearance testing</p>
-                            <p class="two">Font size and appearance testing</p>
-                            <p class="three">Font size and appearance testing</p>
-                        </div>
+                                <div class="Pathway">
+                                    <p>"Pathway Gothic One"</p>
+                                    <p class="one">Font size and appearance testing</p>
+                                    <p class="two">Font size and appearance testing</p>
+                                    <p class="three">Font size and appearance testing</p>
+                                </div>
 
-                    </div>
-                    
-                </section>
+                                <div class="Script">
+                                    <p>"Dancing Script"</p>
+                                    <p class="one">Font size and appearance testing</p>
+                                    <p class="two">Font size and appearance testing</p>
+                                    <p class="three">Font size and appearance testing</p>
+                                </div>
+
+                            </div>
+                            
+                        </section>
+                </div>
+
+                <div id="elementStyles">
+                    <h1>Element Styles</h1>
+                        <section class="el">
+
+                            <div class="elementstylescontent">
+
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            H1.Headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            h2.headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            h3.headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Font'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            h4.headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            H5.Headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            h6.headings
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            Paragraphs
+                                        </span> 
+                                        <span class="brackets">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'center'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="elementstylescontent">
+                                <div class="text">
+
+                                    <p class="one">
+                                        <span class="line">
+                                            1
+                                        </span>
+                                        <span class="element">
+                                            Span
+                                        </span> 
+                                        <span class="bracketsone">
+                                            &#123;
+                                        </span>
+                                    </p>
+
+                                    <p class="two">
+                                        <span class="linetwo">
+                                            2
+                                        </span>
+                                            font-family:
+                                        <span>
+                                            'Fonts'
+                                        </span>
+                                    </p>
+
+                                    <p class="three">
+                                        <span class="linethree">
+                                            3
+                                        </span>
+                                            Color:
+                                        <span>
+                                            #000
+                                        </span>
+                                    </p>
+                                    
+                                    <p class="four">
+                                        <span class="linefour">
+                                            4
+                                        </span>
+                                            align-text:
+                                        <span>
+                                            'none'
+                                        </span>
+                                    </p>
+
+                                    <p class="five">
+                                        <span class="linefive">
+                                            5
+                                        </span>
+                                            Font-size:
+                                        <span>
+                                            'Size'
+                                        </span>
+                                    </p>
+
+                                    <p class="six">
+                                        <span class="linesix">
+                                            6
+                                        </span>
+                                        <span class="closebracket"> 
+                                            &#125;
+                                        </span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </section>
+                </div>
+
+            </main>
         </div>
-
-        <div id="elementStyles">
-            <h1>Element Styles</h1>
-                <section class="el">
-
-                    <div class="elementstylescontent">
-
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    H1.Headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    h2.headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    h3.headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Font'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    h4.headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    H5.Headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    h6.headings
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    Paragraphs
-                                </span> 
-                                <span class="brackets">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'center'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="elementstylescontent">
-                        <div class="text">
-
-                            <p class="one">
-                                <span class="line">
-                                    1
-                                </span>
-                                <span class="element">
-                                    Span
-                                </span> 
-                                <span class="bracketsone">
-                                    &#123;
-                                </span>
-                            </p>
-
-                            <p class="two">
-                                <span class="linetwo">
-                                    2
-                                </span>
-                                    font-family:
-                                <span>
-                                    'Fonts'
-                                </span>
-                            </p>
-
-                            <p class="three">
-                                <span class="linethree">
-                                    3
-                                </span>
-                                    Color:
-                                <span>
-                                    #000
-                                </span>
-                            </p>
-                            
-                            <p class="four">
-                                <span class="linefour">
-                                    4
-                                </span>
-                                    align-text:
-                                <span>
-                                    'none'
-                                </span>
-                            </p>
-
-                            <p class="five">
-                                <span class="linefive">
-                                    5
-                                </span>
-                                    Font-size:
-                                <span>
-                                    'Size'
-                                </span>
-                            </p>
-
-                            <p class="six">
-                                <span class="linesix">
-                                    6
-                                </span>
-                                <span class="closebracket"> 
-                                    &#125;
-                                </span>
-                            </p>
-
-                        </div>
-                    </div>
-                </section>
-        </div>
-    </main>
 
     <!-- Footer -->
-    <footer>
-        <div id="footer">
-            <a href="#" class="thanks">By Proamateur. Thanks for checking out my website! </a>
-            <a href="#" class="backtotop">back to top</a>
-        </div>
-    </footer>
-
+        <footer>
+            <div id="footer">
+                <a href="#" class="thanks">By Proamateur. Thanks for checking out my website! </a>
+                <a href="#" class="backtotop">back to top</a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
 
